@@ -1,0 +1,55 @@
+.phones-showcase{
+    height: 800px;
+    width:100vw;
+    overflow:hidden;
+    position: relative;
+    background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png');
+    background-size: cover;
+    background-position: right top;
+}
+.phone-showcase-wrapper{
+    height: 70%;
+}
+.phone{
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+}
+.phone-1{
+  z-index:98;
+  transform: translate(-160%, 25%);
+}
+.phone-2{
+ z-index:99;
+ transform: translate(-105%, 15%);
+}
+.phone-3{
+ z-index: 100;
+ transform: translate(-50%, 5%);
+}
+.phone-4{
+z-index: 99;
+transform: translate(5%, 15%)
+}
+.phone-5{
+ z-index:98;
+ transform: translate(60%, 25%);
+}
+@media all and (max-width:1279px)
+{
+    .phone-showcase{
+        height: 620px;
+    }
+    .phone{
+        width:300px;
+    }
+}
+@media all and (max-width:767px)
+{
+    .phone-showcase{
+        height: 620px;
+    }
+    .phone{
+        width:170px;
+    }
+}

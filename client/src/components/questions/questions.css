@@ -1,0 +1,30 @@
+.questions{
+ background-color: var(--grey);
+ padding: 60px 0;;
+}
+.questions-content{
+    margin-bottom: 70px;
+    font-family: gilroy-regular;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.65px;
+    opacity: 1;
+}
+.anchor{
+    font-family: gilroy-regular;
+    font-size: 18px;
+    letter-spacing: 0.75px;
+    line-height: 34px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    opacity: 0.7;
+    padding: 0px 12px;
+    border-right: 1px solid rgb(246, 246, 246);
+    text-decoration: none;
+}
+.anchor-head{
+    font-weight: 700;
+    color:var(--white);
+    font-size: 20px;
+    text-decoration: none;
+}

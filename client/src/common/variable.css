@@ -1,0 +1,12 @@
+:root{
+    --bg-color:#0f0f0f;
+    --white:#f8f8f8;
+    --grey:#272727;
+    --claim:#7ea2ec;
+    --feel-bg:#ee2f4c;
+    --money-bg:#1a61e9;
+    --security-bg:rgb(90 30 203);
+    --story-bg:rgb(2 119 87);
+    --box-shadow:rgb(250 250 255 / 16%) 0px -5px 6px 0px inset, rgb(38 37 37 / 24%) 4px 6px 11px 1px inset;
+    --mobile-bg:rgb(13 13 13);
+}

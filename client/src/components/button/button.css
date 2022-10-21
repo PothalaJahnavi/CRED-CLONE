@@ -1,0 +1,24 @@
+@import '../../common/fonts/fonts.css';
+@import '../../common/variable.css';
+@import '../../common/styles/commonClases.css';
+.button-wraper{
+    color:var(--bg-color);
+    background-color: var(--white);
+    cursor:pointer;
+    font-size: 24px;
+    font-family: gilroy-bold;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    padding:20px 65px;
+    font-weight: 700;
+    border-radius: 40px;
+    cursor: pointer;
+    width: max-content;
+}
+@media all and (max-width:767px)
+{
+    .button-wraper{
+        font-size: 18px;
+        padding:16px 28px;
+    }
+}

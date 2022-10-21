@@ -1,0 +1,21 @@
+.money{
+    height: 170vh;
+    background-color: var(--money-bg);
+    background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg-mobile.jpg');
+    background-position:center center;
+}
+@media all and (max-width:1279px){
+   .money{
+    background-position: center left;
+    background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg-mobile.jpg');
+
+   }
+}
+@media all and (max-width:767px){
+  .money{
+    height:140vh;
+    background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg-mobile.jpg');
+    background-position:right center;
+    min-height: 1150px;
+  }
+}

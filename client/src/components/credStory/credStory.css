@@ -1,0 +1,73 @@
+.story{
+    height: 100vh;
+    background-color: var(--story-bg);
+    background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg-mobile.jpg');
+    background-position:right bottom;
+    position:relative;
+    background-size: cover;
+}
+.story-wrapper{
+  align-items: flex-end;
+}
+.story-heading-wrapper
+{
+   width: 50%;
+   flex-direction: column;
+   justify-content: flex-end;
+}
+.story-para{
+  font-size: 18px;
+    font-family: gilroy-regular;
+    letter-spacing: 0px;
+    line-height: 28px;
+    margin-top: 20px;
+    max-width: 550px
+}
+.story-heading{
+  font-size: 60px;
+    font-family: gilroy-bold;
+    letter-spacing: -1.15px;
+    line-height: 64px;
+    white-space: pre-line;
+    opacity: 0.9;
+}
+.story-description{
+  width: 50%;
+  font-weight: 500;
+  margin-left: 30px;
+}
+@media all and (max-width:1279px){
+ 
+  .story-heading{
+    max-width: 100%;
+  }
+}
+@media all and (max-width:767px){
+  .story{
+    background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg-mobile.jpg');
+
+  }
+  .story-heading{
+    font-size: 55px;
+    line-height: 55px;
+    padding-bottom: 80px;
+  }
+  .story-para{
+    font-size: 15px;
+      
+  } 
+  .story-wrapper{
+    flex-direction: column;
+    padding:70px 0;
+  }
+  .story-heading-wrapper
+{
+   width: 100%;
+   flex-direction: column;
+   justify-content: center;
+}
+.story-description{
+  width: 100%;
+  
+}
+}

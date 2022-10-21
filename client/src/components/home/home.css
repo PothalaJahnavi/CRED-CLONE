@@ -1,0 +1,84 @@
+@import '../../common/fonts/fonts.css';
+@import '../../common/variable.css';
+@import '../../common/styles/commonClases.css';
+
+.main-section-wrapper{ 
+    position: relative;
+}
+
+.main-section{
+    min-height: 100vh;
+    text-align: center;
+}
+.main-heading {
+    font-size: 106px;
+    font-weight: 700;
+    font-family: gilroy-bold;
+}
+.main-subtitle{
+    font-family: gilroy-bold;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 35px 58px;
+    text-align: center;
+    line-height: 38px;
+}
+.main-lable{
+    background-color: var(--grey);
+    height: 72px;
+    position: absolute;
+    font-size: 25px;
+    width: 100%;
+    line-height: 30px;
+    font-weight: 600;
+}
+.claim-arrow{
+    height:11px;
+    margin: 7px 0 0 8px;
+}
+.main-anchor{
+    color:var(--claim);
+    margin-left: 17px;
+}
+@media all and (max-width:1279px)
+{
+    .main-heading {
+    font-size: 82px;
+    line-height: 90px;
+    }
+    .main-subtitle{
+        font-size: 24px;
+    }
+    .main-anchor{
+        margin-left:0;
+    }
+}
+@media all and (max-width:767px)
+{
+    .main-section{
+        align-items: flex-start;
+        text-align: left;
+        min-height:70vh;
+    }
+    .main-heading{
+        line-height: 47px;
+        font-size: 55px;
+        width: 270px;
+        margin-top: 60px;
+    }
+    .main-subtitle{
+        font-family: gilroy-bold;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: left;
+        margin: 35px 0;
+    }
+    .claim-arrow{
+        height:6px;
+        margin: 2px 0 0 3px;
+    }
+    .main-lable{
+        height: 55px;
+        font-size: 13px;
+    }
+}
